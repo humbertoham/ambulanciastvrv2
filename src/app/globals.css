@@ -31,3 +31,13 @@ body {
     text-wrap: balance;
   }
 }
+
+.zin{
+  z-index: 9999999 !important;
+}
+
+.wpp{
+  width: auto;
+  height: 60px;
+ 
+}
