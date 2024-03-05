@@ -6,6 +6,11 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  
+  --red: #fe0002;
+  --blue: #0000fe;
+  --orange: #ff6b01;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,13 +22,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Montserrat", sans-serif !important;
 }
 
 @layer utilities {
@@ -40,4 +39,67 @@ body {
   width: auto;
   height: 60px;
  
+}
+
+.ver{
+  margin-top: 50px;
+  margin-left: 100px;
+ 
+}
+
+  .ver :hover {
+
+  border-bottom: var(--orange) solid 3px;
+  transition: opacity 1s ease;
+
+}
+
+.curr{
+  border-bottom: var(--orange) solid 3px;
+  
+}
+.pad{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.bars{
+  color: var(--orange);
+}
+.bars:hover{
+  color: white !important;
+  background-color: var(--orange) !important;
+
+
+
+}
+
+.bt{
+
+  color: white !important; 
+  background-color: var(--orange) !important;
+
+
+}
+
+.bt:hover{
+  background-color: hwb(25 0% 31%) !important;
+}
+
+.mul{
+  font-family: 'Mulish', sans-serif !important;
+}
+
+.stat{
+  background: fixed center url(../../public/images/cot.jpg);
+}
+.cot{
+  background: center url(../../public/images/cot.jpg);
+
+}
+.phone{
+  display: inline;
+  width: 28px;
+  height: 28px;
+  padding-right: 8px;
+
 }
