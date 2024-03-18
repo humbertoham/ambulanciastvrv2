@@ -7,13 +7,14 @@ import Testimonials from "@/components/opinions";
 import Services from "@/components/services";
 import Stats from "@/components/stats";
 import SubsBanner from "@/components/subsbanner";
-import About from "@/components/about";
+import Local from "@/components/locales";
 
 export default function Home() {
   return (<>
     <Navbar/>
-    <About/>
-
+    <Cotizacion tittle= 'Traslados locales' sub= 'Realiza una cotización para tu traslado' par1='Amplia cobertura en Chihuaha.' par2='Ofrecemos tiempos de respuesta rápidos y traslados seguros a hospitales, clínicas u otros centros médicos en toda la región de Chihuahua.' par3 ='' par4=''/>
+    <Local/>
+  <Stats/>
   <SubsBanner/>
   <Map/>
   <Footer/>

@@ -103,3 +103,26 @@ body {
   padding-right: 8px;
 
 }
+
+.bicon{
+  color: #0000fe;
+  width: 32px;
+  height: 32px;
+  display: inline;
+}
+
+.wbg{
+  background-color: 	#25D366;
+}
+
+.wbg:hover{
+
+  background-color: 	#1ea851;
+
+
+
+}
+.maxh{
+  max-height: 500px;
+}
+

@@ -7,13 +7,14 @@ import Testimonials from "@/components/opinions";
 import Services from "@/components/services";
 import Stats from "@/components/stats";
 import SubsBanner from "@/components/subsbanner";
-import About from "@/components/about";
+import Incubadora from "@/components/incubadora";
 
 export default function Home() {
   return (<>
     <Navbar/>
-    <About/>
-
+    <Cotizacion tittle= 'Traslado en incubadora' sub= 'Realiza una cotización para tu traslado en incubadora' par1='Amplia cobertura en Chihuaha.' par2='Ofrecemos tiempos de respuesta rápidos y traslados seguros a hospitales, clínicas u otros centros médicos en toda la región de Chihuahua.' par3 ='' par4=''/>
+    <Incubadora/>
+  <Stats/>
   <SubsBanner/>
   <Map/>
   <Footer/>

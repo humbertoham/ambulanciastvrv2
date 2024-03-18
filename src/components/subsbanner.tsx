@@ -44,7 +44,7 @@ export default function SubsBanner() {
               />
               <button
                 type="submit"
-                className=" rounded-full max-md:block max-md:mx-auto max-md:mt-3 bt px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-"
+                className=" transition rounded-full max-md:block max-md:mx-auto max-md:mt-3 bt px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-"
               >
                 Subscribete
               </button>

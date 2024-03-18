@@ -2,7 +2,7 @@
 
 
 const stats = [
-    { id: 1, name: 'Años de experiencia', value: '15' },
+    { id: 1, name: 'Años de experiencia', value: '10' },
     { id: 2, name: 'Traslados realizados.', value: '+1000' },
     { id: 3, name: 'Empresas afiliadas', value: '300' },
     

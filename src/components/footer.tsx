@@ -1,8 +1,10 @@
+import Mem from "./mem";
 
 
 export default function Footer(){
     return(
         <>
+        <Mem/>
         <footer className="bg-zinc-100 mul grid grid-cols-3 px-16">
 
 
@@ -12,9 +14,9 @@ export default function Footer(){
         <p>
           <span className="text-xs uppercase tracking-wide text-gray-500"> Contáctanos </span>
 
-          <a href="#" className="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl">
+          <p className="block text-2xl font-medium text-gray-900 sm:text-3xl">
           614 155 6904
-          </a>
+          </p>
         </p>
 
         <ul className="mt-8 space-y-1 text-sm text-gray-700">
@@ -25,7 +27,7 @@ export default function Footer(){
         <ul className="mt-8 flex gap-6">
           <li>
             <a
-              href="#"
+              href="https://www.facebook.com/AmbulanciasTVR"
               rel="noreferrer"
               target="_blank"
               className="text-gray-700 transition hover:opacity-75"
@@ -51,27 +53,27 @@ export default function Footer(){
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Traslados locales </a>
+              <a href="/trasladoslocales" className="text-gray-700 transition hover:opacity-75"> Traslados locales </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Traslado en incubadora </a>
+              <a href="/trasladoenincubadora" className="text-gray-700 transition hover:opacity-75"> Traslado en incubadora </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Traslados de COVID </a>
+              <a href="/trasladosdecovid" className="text-gray-700 transition hover:opacity-75"> Traslados de COVID </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Terapia intensiva</a>
+              <a href="/terapiaintensiva" className="text-gray-700 transition hover:opacity-75"> Terapia intensiva</a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Cobertura de eventos </a>
+              <a href="/coberturadeeventos" className="text-gray-700 transition hover:opacity-75"> Cobertura de eventos </a>
 
             </li>
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Traslados foráneos </a>
+              <a href="/trasladosforaneos" className="text-gray-700 transition hover:opacity-75"> Traslados foráneos </a>
             </li>
           </ul>
         </div>
@@ -81,9 +83,18 @@ export default function Footer(){
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Nosotros </a>
+              <a href="/nosotros" className="text-gray-700 transition hover:opacity-75"> Nosotros </a>
+            </li>
+            <li>
+              <a href="/membresia" className="text-gray-700 transition hover:opacity-75"> Membresía </a>
             </li>
 
+            <li>
+              <a href="/ambulancias" className="text-gray-700 transition hover:opacity-75"> Ambulancias </a>
+              
+            </li><li>
+              <a href="/contacto" className="text-gray-700 transition hover:opacity-75"> Contácto </a>
+            </li>
           
           </ul>
         </div>
