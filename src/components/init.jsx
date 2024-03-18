@@ -3,7 +3,7 @@ export default function Init() {
     return (
       <>
           
-          <div className="  max-w-6xl mx-auto  text-gray-600 grid grid-cols-1 md:grid-cols-2 ">
+          <div className="  max-w-6xl mx-auto  md:mb-0 mb-10 text-gray-600 grid grid-cols-1 md:grid-cols-2 ">
             
           <div className=" md:ml-16 max-w-70 md:my-20 mb-0 mt-16 mx-auto  md:px-0 md:py-0  px-10 flex flex-col"> 
             
