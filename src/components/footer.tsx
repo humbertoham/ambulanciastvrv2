@@ -93,6 +93,9 @@ export default function Footer(){
             <li>
               <a href="/trasladosforaneos" className="text-gray-700 transition hover:opacity-75"> Traslados foráneos </a>
             </li>
+            <li>
+              <a href="/emergencias" className="text-gray-700 transition hover:opacity-75"> Emergencias </a>
+            </li>
           </ul>
         </div>
 
