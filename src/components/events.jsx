@@ -20,8 +20,8 @@ export default function Events() {
           <h1 className="font-bold text-4xl text-gray-900">Ambulancia para Eventos</h1>
           <p className="py-10">Estas planeando un evento y deseas contar con <span className="font-bold">asistencia medica</span>, paramédicos, médicos o <span className="font-bold">ambulancia </span>para prevenir o atender cualquier accidente o eventualidad de forma inmediata.</p>
        
-          <p >Nosotros somos la solución que estas buscando, ofrecemos amplia experiencia y los mejores<span className="font-bold">servicios de atención médica </span> prehospitalaria mediante el uso de equipo avanzado.  </p>
-          <p className="py-10">Contamos con<span className="font-bold">área protegida</span> , atractivos paquetes que se ajustan a tus necesidades, ya sea desde 1 paramédico hasta consultorios médicos móviles.</p>
+          <p >Nosotros somos la solución que estas buscando, ofrecemos amplia experiencia y los mejores <span className="font-bold">servicios de atención médica </span> prehospitalaria mediante el uso de equipo avanzado.  </p>
+          <p className="py-10">Contamos con <span className="font-bold">área protegida</span> , atractivos paquetes que se ajustan a tus necesidades, ya sea desde 1 paramédico hasta consultorios médicos móviles.</p>
           <p>Te ayudamos a cumplir con todas las medidas de seguridad de Protección Civil para cubrir cualquier <span className="font-bold">emergencia medica.</span></p>
          
          

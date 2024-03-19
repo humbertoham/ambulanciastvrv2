@@ -50,7 +50,7 @@ export default function Cotizacion({tittle, sub, par1, par2, par3, par4} : {titt
 
   </ul>
   <a
-                href="#"
+                href="tel:+526141556904"
                 className=" transition rounded-xl block mt-16 bt mx-auto md:mx-0 max-w-52 px-3.5 py-2.5 text-md font-bold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-"
               >
                 <PhoneIcon className='phone' />

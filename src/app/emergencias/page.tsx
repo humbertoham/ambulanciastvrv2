@@ -4,20 +4,17 @@ import Footer from "@/components/footer";
 import Map from "@/components/map";
 import Navbar from "@/components/navbar";
 import Testimonials from "@/components/opinions";
-import Services from "@/components/services";
+import Emer from "@/components/emer";
 import Stats from "@/components/stats";
 import SubsBanner from "@/components/subsbanner";
 
-import Init from "@/components/init";
 
 export default function Home() {
   return (<>
     <Navbar/>
-    <Cotizacion tittle= 'Ambulancias TVR' sub= 'Tu salud, nuestra prioridad.' par1='Ambulancias desde $800 pesos.' par2='Respuesta Inmediata' par3 ='Atendemos Pacientes de COVID.' par4='Amplia Cobertura las 24 horas.'/>
-  <Services/>
-  <Init/>
+    <Cotizacion tittle= 'Emergencias' sub= 'EMERGENCIAS LAS 24 HORAS.' par1='Atención médica inmediata las 24 horas, todos los días.' par2='¿Emergencias? ¡Estamos disponibles las 24 horas!"' par3 ='' par4=''/>
+ <Emer/>
   <Stats/>
-  <Testimonials/>
   <SubsBanner/>
   <Map/>
   <Footer/>
