@@ -16,7 +16,7 @@
         <a href="/trasladoslocales"></a>
         <div className="relative"><a href="/trasladoslocales">
                 <img className="w-full"
-                    src="./images/serv6.jpeg"
+                    src="./images/serv6.jpg"
                     alt="Sunset in the mountains"/>
                 <div
                     className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
@@ -48,7 +48,7 @@
         <a href="/trasladoenincubadora"></a>
         <div className="relative"><a href="/trasladoenincubadora">
                 <img className="w-full"
-                    src="./images/serv2.jpeg"
+                    src="./images/serv2.jpg"
                     alt="Sunset in the mountains"/>
                 <div
                     className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
@@ -111,7 +111,7 @@ Traslados seguros de pacientes con COVID-19. Personal capacitado, medidas de bio
         <a href="/terapiaintensiva"></a>
         <div className="relative"><a href="/terapiaintensiva">
                 <img className="w-full"
-                    src="./images/serv3.jpeg"
+                    src="./images/serv3.jpg"
                     alt="Sunset in the mountains"/>
                 <div
                     className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
@@ -171,7 +171,7 @@ Cobertura completa de eventos. Ofrecemos servicios profesionales para asegurar u
         <a href="/trasladosforaneos"></a>
         <div className="relative"><a href="/trasladosforaneos">
                 <img className="w-full"
-                    src="./images/serv5.jpeg"
+                    src="./images/serv5.jpg"
                     alt="Sunset in the mountains"/>
                 <div
                     className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">

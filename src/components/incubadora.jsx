@@ -39,7 +39,7 @@ Unidad de Cuidados Intensivos.
 Cuidados Intensivos Neonatales.
 </li>
           </ul>
-          <p className="py-10">Contamos con amplia experiencia en <span className="font-bold"> urgencias médicas</span> y traslados de alta dificultad conservando la  <span className="font-bold">integridad del paciente</span>, acudimos a todos los hospitales y centros médicos en Monterrey y su área metropolitana. </p>
+          <p className="py-10">Contamos con amplia experiencia en <span className="font-bold"> urgencias médicas</span> y traslados de alta dificultad conservando la  <span className="font-bold">integridad del paciente</span>, acudimos a todos los hospitales y centros médicos en Chihuahua y su área metropolitana. </p>
           <p>Contamos con servicio de emergencia las 24 horas en Chihuahua.</p>
          
          
